@@ -1,5 +1,7 @@
-# #project3 Guess the number.
-hidden_number = float(32)
+#project3 Guess the number.
+
+import random 
+hidden_number = random.randint(1,100)
 limit_of_try = float(5)
 _try = (0)
 while _try <= 5 :
